@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg1.KalkulagailuaController">
+<AnchorPane id="AnchorPane" prefHeight="405.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg1.KalkulagailuaController">
     <children>
                <Label layoutX="57.0" layoutY="18.0" text="KALKULAGAILUA">
          <font>
@@ -28,15 +28,15 @@
          <font>
             <Font size="25.0" />
          </font></TextField>
-        <Button fx:id="biderkatu" layoutX="212.0" layoutY="191.0" onAction="#handleBiderkatuAction" text="=">
+        <Button fx:id="biderkatu" layoutX="212.0" layoutY="163.0" onAction="#handleBiderkatuAction" text="=">
          <font>
             <Font size="25.0" />
          </font></Button>
-        <TextField fx:id="biderkagai1" layoutX="17.0" layoutY="187.0" prefHeight="48.0" prefWidth="79.0">
+        <TextField fx:id="biderkagai1" layoutX="18.0" layoutY="163.0" prefHeight="48.0" prefWidth="79.0">
          <font>
             <Font size="25.0" />
          </font></TextField>
-        <TextField fx:id="biderkagai2" layoutX="129.0" layoutY="187.0" prefHeight="48.0" prefWidth="79.0">
+        <TextField fx:id="biderkagai2" layoutX="129.0" layoutY="163.0" prefHeight="48.0" prefWidth="79.0">
          <font>
             <Font size="25.0" />
          </font></TextField>
@@ -44,14 +44,62 @@
          <font>
             <Font size="25.0" />
          </font></Label>
-        <Label layoutX="105.0" layoutY="196.0" text="x">
+        <Label layoutX="104.0" layoutY="172.0" text="x">
          <font>
             <Font size="25.0" />
          </font></Label>
-        <Label fx:id="biderketa" layoutX="277.0" layoutY="190.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
+        <Label fx:id="biderketa" layoutX="277.0" layoutY="166.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
          <font>
             <Font size="25.0" />
          </font></Label>
+      <Label layoutX="106.0" layoutY="247.0" text="-">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="kendu" layoutX="213.0" layoutY="238.0" onAction="#handleKenketaAction" text="=">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <TextField fx:id="zatiketa1" layoutX="18.0" layoutY="310.0" prefHeight="48.0" prefWidth="79.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="zatiketa2" layoutX="130.0" layoutY="310.0" prefHeight="48.0" prefWidth="79.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="106.0" layoutY="319.0" text="/">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="zati" layoutX="213.0" layoutY="310.0" onAction="#handleZatiketaAction" text="=">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="kenketa" layoutX="277.0" layoutY="241.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="zatiketa" layoutX="277.0" layoutY="313.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="109.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kenketa1" layoutX="17.0" layoutY="238.0" prefHeight="54.0" prefWidth="79.0">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <TextField fx:id="kenketa2" layoutX="129.0" layoutY="238.0" prefHeight="54.0" prefWidth="79.0">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
  
     </children>
 </AnchorPane>
