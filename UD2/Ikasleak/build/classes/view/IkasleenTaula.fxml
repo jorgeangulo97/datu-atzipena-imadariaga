@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="651.0" styleClass="mainFxmlClass" stylesheets="@DarkThemeArgitua.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IkasleenTaulaController">
+      
+    <Label fx:id="izenburua" layoutX="12.0" layoutY="6.0" styleClass="" stylesheets="" text="Ikasleen Zerrenda (UD1-Fitxategiak)" textFill="#2319b9" />
+    <TableView fx:id="tableviua" editable="true" layoutX="12.0" layoutY="70.0" prefHeight="200.0" prefWidth="630.0">
+        <columns>
+            <TableColumn fx:id="zenbakiaCol" prefWidth="150.0" styleClass="lehen-zutabe" text="Zenbakia" />
+            <TableColumn fx:id="izenaCol" prefWidth="150.0" text="Izena" />
+            <TableColumn fx:id="abizena1Col" prefWidth="200.0" text="Abizena" />
+        </columns>
+    </TableView>
+    <HBox fx:id="botoiak" layoutX="12.0" layoutY="270.0" prefHeight="100.0" prefWidth="630.0">
+        <children>
+            <TextField fx:id="addZenbakia" prefWidth="150.0" />
+            <TextField fx:id="addIzena" prefWidth="150.0" />
+            <TextField fx:id="addAbizena" prefWidth="150.0" />
+            <Button fx:id="gehitu" mnemonicParsing="false" onAction="#handleGehituAction" text="  Gehitu   " />
+            <Button fx:id="ezabatu" mnemonicParsing="false" onAction="#handleEzabatuAction" prefHeight="33.0" prefWidth="94.0" text="Ezabatu" />
+        </children>
+    </HBox>
+   <Label fx:id="lbl_errorekopuru" alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="357.0" prefHeight="26.0" prefWidth="242.0" textAlignment="CENTER">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Label>
+   <Button fx:id="btn_gorde" layoutX="550.0" layoutY="354.0" mnemonicParsing="false" onAction="#handlebtn_gordeAction" text="Gorde" />  
+</AnchorPane>
