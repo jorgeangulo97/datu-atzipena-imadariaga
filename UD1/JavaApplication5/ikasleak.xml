@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ikasleak>
+    <Ikaslea id="1">
+        <Zenbakia>1</Zenbakia>
+        <Izena>Alvaro</Izena>
+        <Abizena>Viguera</Abizena>
+    </Ikaslea>
+    <Ikaslea id="2">
+        <Zenbakia>2</Zenbakia>
+        <Izena>Mikel</Izena>
+        <Abizena>Mañeru</Abizena>
+    </Ikaslea>
+    <Ikaslea id="3">
+        <Zenbakia>3</Zenbakia>
+        <Izena>Jorge</Izena>
+        <Abizena>Angulo</Abizena>
+    </Ikaslea>
+</Ikasleak>

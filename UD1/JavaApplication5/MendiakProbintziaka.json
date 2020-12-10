@@ -1,0 +1,52 @@
+[
+    {
+        "probintziaIzena": "Araba",
+        "mendiak": [
+            {
+                "izena": "Albertia",
+                "altuera": 868
+            },
+            {
+                "izena": "Aratz",
+                "altuera": 1443
+            },
+            {
+                "izena": "Ipizte",
+                "altuera": 1062
+            },
+            {
+                "izena": "Jarindo",
+                "altuera": 896
+            },
+            {
+                "izena": "Kapildui",
+                "altuera": 1177
+            },
+            {
+                "izena": "Mirutegi",
+                "altuera": 1166
+            },
+            {
+                "izena": "Soila",
+                "altuera": 933
+            },
+            {
+                "izena": "Toloño",
+                "altuera": 1263
+            }
+        ]
+    },
+    {
+        "probintziaIzena": "Bizkaia",
+        "mendiak": []
+    },            
+    {
+        "probintziaIzena": "Gipuzkoa",
+        "mendiak": []
+    },            
+    {
+        "probintziaIzena": "Nafarroa",
+        "mendiak": []
+    }            
+]         
+

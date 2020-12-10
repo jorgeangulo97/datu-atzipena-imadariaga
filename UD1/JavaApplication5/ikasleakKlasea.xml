@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Ikasleak>
+    <Klaseak abizena="prueba" izena="dam">
+        <Ikaslea>
+            <Zenbakia>1</Zenbakia>
+            <Izena>Alvaro</Izena>
+            <Abizena>Viguera</Abizena>
+        </Ikaslea>
+        <Ikaslea>
+            <Zenbakia>2</Zenbakia>
+            <Izena>Mikel</Izena>
+            <Abizena>Mañeru</Abizena>
+        </Ikaslea>
+        <Ikaslea>
+            <Zenbakia>3</Zenbakia>
+            <Izena>Jorge</Izena>
+            <Abizena>Angulo</Abizena>
+        </Ikaslea>
+    </Klaseak>
+    <Klaseak abizena="" izena="xddd">
+        <Ikaslea>
+            <Zenbakia>4</Zenbakia>
+            <Izena>xd</Izena>
+            <Abizena>xd</Abizena>
+        </Ikaslea>
+        <Ikaslea>
+            <Zenbakia>5</Zenbakia>
+            <Izena>a</Izena>
+            <Abizena>a</Abizena>
+        </Ikaslea>
+        <Ikaslea>
+            <Zenbakia>6</Zenbakia>
+            <Izena>b</Izena>
+            <Abizena>b</Abizena>
+        </Ikaslea>
+    </Klaseak>
+</Ikasleak>

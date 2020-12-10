@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Mendiak>
+    <Mendia>
+        <izena>Mirutegi</izena>
+        <altuera>1166</altuera>
+        <probintzia>Araba</probintzia>
+    </Mendia>
+    <Mendia>
+        <izena>Mugarra</izena>
+        <altuera>964</altuera>
+        <probintzia>Bizkaia</probintzia>
+    </Mendia>
+    <Mendia>
+        <izena>Oiz</izena>
+        <altuera>345</altuera>
+        <probintzia>Araba</probintzia>
+    </Mendia>
+    <Mendia>
+        <izena>Soila</izena>
+        <altuera>257</altuera>
+        <probintzia>Gipuzkoa</probintzia>
+    </Mendia>
+    <Mendia>
+        <izena>Toloño</izena>
+        <altuera>1577</altuera>
+        <probintzia>Araba</probintzia>
+    </Mendia>
+    <Mendia>
+        <izena>Txamantxoia</izena>
+        <altuera>1234</altuera>
+        <probintzia>Bizkaia</probintzia>
+    </Mendia>
+</Mendiak>

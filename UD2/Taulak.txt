@@ -1,0 +1,93 @@
+Base de datos:
+-----------------------------------------------------
+
+ikasleendba ----->ikaslea,log
+
+db1 -----> irakasleak
+
+Tablas:
+------------------------------------------------------
+
+//ikasleendba:
+
+ikaslea:
+
++----------+---------+------+-----+---------+-------+
+| Field    | Type    | Null | Key | Default | Extra |
++----------+---------+------+-----+---------+-------+
+| zenbakia | int(11) | NO   | PRI | NULL    |       |
+| izena    | text    | YES  |     | NULL    |       |
+| abizena1 | text    | YES  |     | NULL    |       |
++----------+---------+------+-----+---------+-------+
+
++----------+--------+----------+
+| zenbakia | izena  | abizena1 |
++----------+--------+----------+
+|        1 | Leo    | Messi    |
+|        2 | Donald | Trump    |
+|        3 | Jon    | Biden    |
+|        4 | koke   | maricon  |
++----------+--------+----------+
+
+
+log:
+
++-------------+--------------+------+-----+---------------------+-------------------------------+
+| Field       | Type         | Null | Key | Default             | Extra                         |
++-------------+--------------+------+-----+---------------------+-------------------------------+
+| Id          | int(11)      | NO   | PRI | NULL                | auto_increment                |
+| Noiz        | timestamp    | NO   |     | current_timestamp() | on update current_timestamp() |
+| User        | varchar(255) | YES  |     | NULL                |                               |
+| Description | varchar(255) | YES  |     | NULL                |                               |
++-------------+--------------+------+-----+---------------------+-------------------------------+
+
+//db1:
+
+irakasleak:
+
++-------+---------+------+-----+---------+----------------+
+| Field | Type    | Null | Key | Default | Extra          |
++-------+---------+------+-----+---------+----------------+
+| id    | int(11) | NO   | PRI | NULL    | auto_increment |
+| izena | text    | YES  |     | NULL    |                |
+| adina | int(11) | YES  |     | NULL    |                |
++-------+---------+------+-----+---------+----------------+
+
++----+-----------+-------+
+| id | izena     | adina |
++----+-----------+-------+
+|  1 | Madariaga |    45 |
+|  2 | Igor      |    20 |
++----+-----------+-------+
+
+
+
+DROP DATABASE MendienDBa;
+CREATE DATABASE MendienDBa;
+USE MendienDBa
+CREATE TABLE Mendia(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  mendia TEXT,
+  altuera INT,
+  probintzia TEXT);
+  
+INSERT INTO Mendia VALUES(1,"Aketegi",1548,"Gipuzkoa");
+INSERT INTO Mendia VALUES(2,"Albertia",868,"Araba");
+INSERT INTO Mendia VALUES(3,"Alluitz",1034,"Bizkaia");
+INSERT INTO Mendia VALUES(4,"Anboto",1331,"Bizkaia");
+INSERT INTO Mendia VALUES(5,"Aratz",1443,"Araba");
+INSERT INTO Mendia VALUES(6,"Arrate",556,"Gipuzkoa");
+INSERT INTO Mendia VALUES(7,"Hernio",1075,"Gipuzkoa");
+INSERT INTO Mendia VALUES(8,"Ipizte",1062,"Araba");
+INSERT INTO Mendia VALUES(9,"Jarindo",896,"Araba");
+INSERT INTO Mendia VALUES(10,"Kapildui,"1177,"Araba");
+INSERT INTO Mendia VALUES(11,"Karakate",749,"Gipuzkoa");
+INSERT INTO Mendia VALUES(12,"Kurtzebarri",1133,"Gipuzkoa");
+INSERT INTO Mendia VALUES(13,"Lapazarra",1785,"Nafarroa");
+INSERT INTO Mendia VALUES(14,"Mirutegi",1166,"Araba");
+INSERT INTO Mendia VALUES(15,"Mugarra",964,"Bizkaia");
+INSERT INTO Mendia VALUES(16,"Oiz",1029,"Bizkaia");
+INSERT INTO Mendia VALUES(17,"Soila",993,"Araba");
+INSERT INTO Mendia VALUES(18,"Toloño",1263,"Araba");
+INSERT INTO Mendia VALUES(19,"Txamantxoia",1945,"Nafarroa");
+

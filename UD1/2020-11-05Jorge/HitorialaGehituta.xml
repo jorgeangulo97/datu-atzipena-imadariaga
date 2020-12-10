@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<historiala>
+    <sarrera id="22">
+        <eguna>22</eguna>
+        <ikaslea>2020-11-02</ikaslea>
+        <temperatura>garai.iker</temperatura>
+    </sarrera>
+    <sarrera id="23">
+        <eguna>23</eguna>
+        <ikaslea>2020-11-02</ikaslea>
+        <temperatura>sanchez.ane</temperatura>
+    </sarrera>
+    <sarrera id="24">
+        <eguna>24</eguna>
+        <ikaslea>2020-11-02</ikaslea>
+        <temperatura>gorosti.jon</temperatura>
+    </sarrera>
+    <sarrera id="25">
+        <eguna>25</eguna>
+        <ikaslea>2020-11-03</ikaslea>
+        <temperatura>garai.iker</temperatura>
+    </sarrera>
+    <sarrera id="26">
+        <eguna>26</eguna>
+        <ikaslea>2020-11-03</ikaslea>
+        <temperatura>sanchez.ane</temperatura>
+    </sarrera>
+    <sarrera id="27">
+        <eguna>27</eguna>
+        <ikaslea>2020-11-03</ikaslea>
+        <temperatura>gorosti.jon</temperatura>
+    </sarrera>
+    <sarrera id="28">
+        <eguna>28</eguna>
+        <ikaslea>2020-11-04</ikaslea>
+        <temperatura>garai.iker</temperatura>
+    </sarrera>
+    <sarrera id="29">
+        <eguna>29</eguna>
+        <ikaslea>2020-11-04</ikaslea>
+        <temperatura>sanchez.ane</temperatura>
+    </sarrera>
+    <sarrera id="30">
+        <eguna>30</eguna>
+        <ikaslea>2020-11-04</ikaslea>
+        <temperatura>gorosti.jon</temperatura>
+    </sarrera>
+    <sarrera id="31">
+        <eguna>31</eguna>
+        <ikaslea>2020-11-05</ikaslea>
+        <temperatura>garai.iker</temperatura>
+    </sarrera>
+    <sarrera id="32">
+        <eguna>32</eguna>
+        <ikaslea>2020-11-05</ikaslea>
+        <temperatura>sanchez.ane</temperatura>
+    </sarrera>
+    <sarrera id="33">
+        <eguna>33</eguna>
+        <ikaslea>2020-11-05</ikaslea>
+        <temperatura>gorosti.jon</temperatura>
+    </sarrera>
+    <sarrera id="34">
+        <eguna>34</eguna>
+        <ikaslea>2020-11-06</ikaslea>
+        <temperatura>madariaga.idoia</temperatura>
+    </sarrera>
+</historiala>
